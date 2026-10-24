@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 110" role="img" aria-labelledby="title desc">
+<title id="title">Design &amp; Grill</title>
+<desc id="desc">Churrasqueiras em inox desde 2009.</desc>
+<defs>
+  <linearGradient id="flame" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e83d2b"/>
+    <stop offset=".52" stop-color="#f36a20"/>
+    <stop offset="1" stop-color="#f5a623"/>
+  </linearGradient>
+  <linearGradient id="core" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffd166"/>
+    <stop offset="1" stop-color="#ff9b24"/>
+  </linearGradient>
+</defs>
+<g transform="translate(-38 -28) scale(.28)">
+  <path d="M300 164
+    C283 203 253 226 260 266
+    C238 248 224 220 230 188
+    C190 230 169 274 176 319
+    C183 361 213 394 252 410
+    C238 387 238 360 255 338
+    C270 318 288 302 286 275
+    C313 301 325 329 313 356
+    C338 339 348 310 340 280
+    C373 311 391 345 381 375
+    C375 395 360 408 341 416
+    C391 405 422 371 422 328
+    C422 284 398 244 367 214
+    C369 247 355 271 337 284
+    C343 238 327 198 300 164Z" fill="url(#flame)"/>
+  <path d="M297 300
+    C276 325 266 344 269 365
+    C272 384 285 398 301 405
+    C298 386 307 372 319 358
+    C331 342 330 322 318 307
+    C319 329 310 341 300 350
+    C304 332 303 316 297 300Z" fill="url(#core)"/>
+  <path d="M205 267 C197 248 198 230 206 214 C219 231 224 247 220 262Z" fill="#f5a623"/>
+  <path d="M390 255 C392 238 387 222 377 210 C371 227 373 242 381 255Z" fill="#f5a623"/>
+</g>
+<text x="96" y="52" fill="#fff" font-family="Arial Narrow, Impact, sans-serif" font-size="33" font-weight="900" letter-spacing="1.4">DESIGN<tspan fill="#f36a20"> &amp; </tspan>GRILL</text>
+<text x="98" y="79" fill="#c5cdd3" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2.1">CHURRASQUEIRAS EM INOX · DESDE 2009</text>
+</svg>

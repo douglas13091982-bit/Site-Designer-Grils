@@ -15,8 +15,8 @@ h1,h2,h3{margin:0;line-height:1.12}
 a{color:inherit}:focus-visible{outline:3px solid var(--or);outline-offset:3px}
 .w{max-width:1120px;margin:0 auto;padding:0 24px}
 header{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--dk);color:#fff}
-header .w{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
-header img{height:52px;max-width:210px;width:auto;object-fit:contain;display:block}
+header .w{display:flex;align-items:center;justify-content:space-between;height:76px;gap:16px}
+header img{height:62px;max-width:248px;width:auto;object-fit:contain;display:block}
 nav{display:flex;gap:26px}nav a{text-decoration:none;font-size:14px;font-weight:500;color:#E8ECEF}nav a:hover{color:var(--or)}
 .btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;background:var(--or);color:#fff;font-weight:600;font-size:14px;text-decoration:none;border:2px solid var(--or);border-radius:8px;cursor:pointer;font-family:inherit}
 .btn.o{background:transparent;border-color:#fff}.btn:hover{filter:brightness(1.08)}
@@ -59,7 +59,7 @@ label{font-size:14px;font-weight:600;display:grid;gap:5px}
 input,textarea{font:inherit;padding:11px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);width:100%}
 footer{background:var(--dk2);color:#C5CDD3;padding:28px 0 22px;font-size:13px}
 footer .w{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
-footer img{height:46px}footer a{color:#fff}
+footer img{height:54px}footer a{color:#fff}
 .copy{border-top:1px solid #1F2B35;margin-top:18px;padding-top:14px;color:#8D99A3;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 .wa{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:20;padding:12px 20px;background:#1E8E4E;color:#fff;font-weight:600;text-decoration:none;border-radius:99px;font-size:14px}
 @media(max-width:900px){nav{display:none}.hero .w{grid-template-columns:1fr;padding-top:48px;padding-bottom:230px}.hero:after{width:100%;top:auto;height:210px;background:linear-gradient(0deg,transparent 60%,var(--dk)),url("assets/hero.png") center/cover}
@@ -90,7 +90,7 @@ footer img{height:46px}footer a{color:#fff}
 .det .photo-sprite{background-size:400% 455.1%}
 .det .tile-9,.det .tile-10,.det .tile-11,.det .tile-12{background-position-y:64.1%}
 </style></head><body>
-<header><div class="w"><a href="#inicio"><img src="assets/logo-horizontal.svg" alt="Design & Grill" width="210" height="53"></a>
+<header><div class="w"><a href="#inicio"><img src="assets/logo-horizontal.svg" alt="Design & Grill" width="248" height="62"></a>
 <nav aria-label="Principal"><a href="#inicio">Início</a><a href="#produtos">Produtos</a><a href="#projetos">Projetos</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></nav>
 <a class="btn" href="#contato">Solicitar orçamento</a></div></header>
 <main>
@@ -145,7 +145,7 @@ footer img{height:46px}footer a{color:#fff}
 <form id="f"><label>Nome<input name="nome" required autocomplete="name"></label><label>Telefone<input name="tel" type="tel" required autocomplete="tel"></label><label>E-mail<input name="email" type="email" autocomplete="email"></label><label>Conte sobre o seu projeto<textarea name="msg" rows="3"></textarea></label><button class="btn" type="submit" style="justify-content:center">Enviar pelo WhatsApp</button></form>
 </div></section>
 </main>
-<footer><div class="w"><img src="assets/logo-horizontal.svg" alt="Design & Grill" width="210" height="53"><span>Joinville/SC · Santa Catarina</span><span>(47) 9 9686 3619</span><a href="mailto:contato@designegrill.com.br">contato@designegrill.com.br</a></div>
+<footer><div class="w"><img src="assets/logo-horizontal.svg" alt="Design & Grill" width="248" height="62"><span>Joinville/SC · Santa Catarina</span><span>(47) 9 9686 3619</span><a href="mailto:contato@designegrill.com.br">contato@designegrill.com.br</a></div>
 <div class="w copy"><span>Design & Grill 2020 © Todos os direitos reservados.</span><span>Desenvolvido por <a href="https://marraweb.com.br">MarraWeb</a></span></div></footer>
 <a class="wa" href="https://wa.me/5547996863619">WhatsApp</a>
 <script>document.getElementById('f').addEventListener('submit',function(e){e.preventDefault();var d=new FormData(e.target);var t='Olá, Design & Grill! Quero um orçamento.\nNome: '+d.get('nome')+'\nTelefone: '+d.get('tel')+(d.get('email')?'\nE-mail: '+d.get('email'):'')+(d.get('msg')?'\nProjeto: '+d.get('msg'):'');window.open('https://wa.me/5547996863619?text='+encodeURIComponent(t),'_blank')});</script>
